@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARREGAA - Conectando Motoristas e Empresas de Transporte de Cargas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="logo1.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Espaço para a Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="logo1.png" alt="Logo CARREGAA" width="40" height="40" class="d-inline-block align-text-top">
+        CARREGAA
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#motoristas">Motoristas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#empresas">Empresas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Conectando Motoristas e Empresas de Transporte com Clientes</h1>
+      <p class="lead">A CARREGAA facilita o transporte de cargas para empresas e clientes em todo o país.</p>
+      <a href="#servicos" class="btn btn-light btn-lg mt-3">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Sobre a CARREGAA</h2>
+          <p>A CARREGAA é uma plataforma inovadora que conecta motoristas independentes e empresas de transporte de cargas com clientes e outras empresas. Nossa missão é facilitar a logística de transporte, proporcionando rapidez e eficiência em todo o processo de entrega.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://via.placeholder.com/500" alt="Imagem ilustrativa" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Conexão com Motoristas</h5>
+              <p class="card-text">Conectamos motoristas independentes com clientes que precisam de transporte de cargas, oferecendo flexibilidade e segurança.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Soluções para Empresas</h5>
+              <p class="card-text">Empresas podem encontrar motoristas e transportadoras confiáveis para otimizar suas operações logísticas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Gestão de Transporte</h5>
+              <p class="card-text">Utilize nossa plataforma para gerenciar suas necessidades de transporte, rastreamento de cargas e agendamento de entregas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Motoristas -->
+  <section id="motoristas" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Benefícios para Motoristas</h2>
+      <p class="text-center">Junte-se à CARREGAA e tenha acesso a novas oportunidades de trabalho e uma plataforma simples para gerenciar seus serviços de transporte.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <h5>Ganhos Flexíveis</h5>
+          <p>Escolha quando e onde deseja trabalhar, com total flexibilidade para definir suas rotas e horários.</p>
+        </div>
+        <div class="col-lg-6">
+          <h5>Ferramentas de Rastreio</h5>
+          <p>Utilize nossas ferramentas para gerenciar suas entregas e monitorar suas viagens em tempo real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Empresas -->
+  <section id="empresas" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Soluções para Empresas</h2>
+      <p class="text-center">A CARREGAA oferece serviços personalizados para empresas, facilitando o transporte de cargas com motoristas certificados.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <h5>Rede de Motoristas</h5>
+          <p>Aproveite nossa rede de motoristas qualificados para expandir suas operações de entrega.</p>
+        </div>
+        <div class="col-lg-6">
+          <h5>Logística Otimizada</h5>
+          <p>Reduza os custos e o tempo de transporte com soluções logísticas sob demanda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Entre em Contato</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu email">
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 CARREGAA. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
